@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="./css/tailwind.css">
 </head>
 <body>
-  <header class="flex items-center justify-between w-960 mx-auto h-16">
+  <header class="flex items-center justify-around sm:justify-between w-screen sm:w-960 mx-auto h-16">
       <div class="">
         <a href="#">
           <img class="w-30 h-10" src="./img/logo.svg" >
@@ -24,12 +24,12 @@
   </header>
   <main>
     <div class="">
-      <img class="w-screen h-600" src="./img/mainvisual.jpg" alt="">
+      <img class="w-screen sm:w-960  h-600" src="./img/mainvisual.jpg" alt="">
     </div>
 
-    <div class="w-960 mx-auto flex justify-items-center flex-col items-center mb-24">
+    <div class="w-screen sm:w-960 mx-auto flex justify-items-center flex-col items-center mb-24">
       <div class="underline underline-thin-2 underline-offset-8 text-3xl mt-8 font-bold">About</div>
-      <div class="mt-8 flex w-2/3 justify-center"> 
+      <div class="mt-8 flex flex-col sm:flex-row w-2/3 justify-center items-center"> 
         <div>
           <img class="radius-circle w-20 h-20" src="./img/about.jpg" alt="">
         </div>
@@ -43,30 +43,30 @@
       </div>
     </div>
 
-    <div class="w-960 mx-auto flex justify-items-center flex-col items-center mb-24">
+    <div class="w-screen sm:w-960 mx-auto flex justify-items-center flex-col items-center mb-24">
       <div class="underline underline-thin-2 underline-offset-8 text-3xl mt-8 font-bold">Bicycle</div>
-      <div class="mt-8 flex justify-between w-full"> 
+      <div class="mt-8 flex justify-between items-center sm:w-full flex-col sm:flex-row"> 
 
-        <div class="w-72 text-center">
+        <div class="w-9/12 sm:w-72 mt-6 text-center">
           <img class="" src="./img/bicycle1.jpg" alt="">
           <div class="font-bold mt-3">KAKERU MIYAICHI</div>
-          <div class="mt-4">
+          <div class="mt-2 sm:mt-4">
             テキストテキスト
           </div>
         </div>
 
-        <div class="w-72 text-center">
+        <div class="w-9/12 sm:w-72 mt-6 text-center">
           <img class="" src="./img/bicycle2.jpg" alt="">
           <div class="font-bold mt-3">KAKERU MIYAICHI</div>
-          <div class="mt-4">
+          <div class="mt-2 sm:mt-4">
             テキストテキスト
           </div>
         </div>
 
-        <div class="w-72 text-center">
+        <div class="w-9/12 sm:w-72 mt-6 text-center">
           <img src="./img/bicycle3.jpg" alt="">
           <div class="font-bold mt-3">KAKERU MIYAICHI</div>
-          <div class="mt-4">
+          <div class="mt-2 sm:mt-4">
             テキストテキスト
           </div>
         </div>
