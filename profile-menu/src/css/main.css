@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .w-960 {
+    width: 960px;
+  }
+  
+  .h-600 {
+    height: 600px;
+  }
+
+  .underline-thin-2 {
+    text-decoration-thickness:  2px;
+  }
+
+  .underline-offset-8 {
+    text-underline-offset:  8px;
+  }
+
+  .radius-circle {
+    border-radius: 100%
+  }
+}
