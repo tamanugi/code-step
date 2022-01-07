@@ -7,8 +7,192 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="css/style.css" />
+    <script type="module" src="js/index.js"></script>
+
+    <!-- flickity -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   </head>
   <body>
-    <include src="./src/components/header.html"></include>
+    <header class="flex items-center h-20 px-10">
+      <h1>Sneaker</h1>
+    </header>
+    <main>
+      <div>
+        <video
+          class="h-full"
+          src="https://code-step.com/demo/html/media/video/video.mp4"
+          autoplay
+          loop
+        ></video>
+      </div>
+
+      <section class="mt-24">
+        <h2 class="text-center text-4xl font-bold">PICK UP</h2>
+
+        <div
+          class="carousell mt-8"
+          data-flickity='{ "wrapAround": true, "contain": true }'
+        >
+          <div class="carousell-cell mx-8 h-72 w-80">
+            <img class="block" src="https://picsum.photos/360/240?q=1" alt="" />
+          </div>
+          <div class="carousell-cell mx-8 h-72 w-80">
+            <img class="block" src="https://picsum.photos/360/240?q=2" alt="" />
+          </div>
+          <div class="carousell-cell mx-8 h-72 w-80">
+            <img class="block" src="https://picsum.photos/360/240?q=3" alt="" />
+          </div>
+          <div class="carousell-cell mx-8 h-72 w-80">
+            <img class="block" src="https://picsum.photos/360/240?q=4" alt="" />
+          </div>
+          <div class="carousell-cell mx-8 h-72 w-80">
+            <img class="block" src="https://picsum.photos/360/240?q=5" alt="" />
+          </div>
+          <div class="carousell-cell mx-8 h-72 w-80">
+            <img class="block" src="https://picsum.photos/360/240?q=6" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="mt-24">
+        <h2 class="text-center text-4xl font-bold">FEATURE</h2>
+
+        <div class="w-11/12 mx-auto">
+          <div
+            class="grid gap-5 mt-8 w-full"
+            style="grid-template-columns: repeat(auto-fill, minmax(320px, 1fr))"
+          >
+            <div class="flex-col" style="box-shadow: 0 0 8px 4px #ccc">
+              <div class="w-full">
+                <img src="https://picsum.photos/630/420?q=6" alt="" />
+              </div>
+
+              <div class="p-8 flex flex-col gap-5">
+                <div>category</div>
+                <div>
+                  テキストテキストテキストテキストテキストテキストテキスト
+                </div>
+                <div class="text-right">2021.01.07</div>
+              </div>
+            </div>
+
+            <div class="flex-col" style="box-shadow: 0 0 8px 4px #ccc">
+              <div class="w-full">
+                <img src="https://picsum.photos/630/420?q=6" alt="" />
+              </div>
+
+              <div class="p-8 flex flex-col gap-5">
+                <div>category</div>
+                <div>
+                  テキストテキストテキストテキストテキストテキストテキスト
+                </div>
+                <div class="text-right">2021.01.07</div>
+              </div>
+            </div>
+            <div class="flex-col" style="box-shadow: 0 0 8px 4px #ccc">
+              <div class="w-full">
+                <img src="https://picsum.photos/630/420?q=6" alt="" />
+              </div>
+
+              <div class="p-8 flex flex-col gap-5">
+                <div>category</div>
+                <div>
+                  テキストテキストテキストテキストテキストテキストテキスト
+                </div>
+                <div class="text-right">2021.01.07</div>
+              </div>
+            </div>
+            <div class="flex-col" style="box-shadow: 0 0 8px 4px #ccc">
+              <div class="w-full">
+                <img src="https://picsum.photos/630/420?q=6" alt="" />
+              </div>
+
+              <div class="p-8 flex flex-col gap-5">
+                <div>category</div>
+                <div>
+                  テキストテキストテキストテキストテキストテキストテキスト
+                </div>
+                <div class="text-right">2021.01.07</div>
+              </div>
+            </div>
+            <div class="flex-col" style="box-shadow: 0 0 8px 4px #ccc">
+              <div class="w-full">
+                <img src="https://picsum.photos/630/420?q=6" alt="" />
+              </div>
+
+              <div class="p-8 flex flex-col gap-5">
+                <div>category</div>
+                <div>
+                  テキストテキストテキストテキストテキストテキストテキスト
+                </div>
+                <div class="text-right">2021.01.07</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="mt-24 bg-black pt-12 pb-4 text-white">
+        <h2 class="text-center text-4xl font-bold">CONTACT</h2>
+
+        <div
+          class="mt-8 w-11/12 mx-auto flex justify-center items-center flex-wrap gap-5"
+        >
+          <div class="flex flex-col gap-8 max-w-lg">
+            <div>テキストテキストテキスト</div>
+            <div>
+              テキストテキストテキストテキストテキストテキストテキストテキストテキストテ
+              キストテキストテキストテキストテキストテキストテキストテキストテキストテキ
+              ストテキストテキストテキストテキストテキストテキストテキストテキスト
+            </div>
+            <div>
+              テキストテキストテキストテキストテキストテキストテキストテキストテキストテ
+              キストテキストテキストテキストテキストテキストテキストテキストテキストテキ
+              ストテキストテキストテキストテキストテキストテキストテキストテキスト
+            </div>
+          </div>
+
+          <div class="flex flex-col gap-5 w-full max-w-lg">
+            <div>
+              <label class="block" for="contact--name">Name:</label>
+              <input
+                class="w-full text-black px-2"
+                type="text"
+                id="contact--name"
+              />
+            </div>
+
+            <div>
+              <label class="block" for="contact--mail">Mail:</label>
+              <input
+                class="w-full text-black px-2"
+                type="email"
+                id="contact--mail"
+              />
+            </div>
+
+            <div>
+              <label class="block" for="contact--message">Message:</label>
+              <textarea
+                class="w-full text-black px-2 py-1"
+                name=""
+                id="contact--message"
+                cols="10"
+                rows="3"
+              ></textarea>
+            </div>
+
+            <button class="border-white border-2 w-48 h-10">SEND</button>
+          </div>
+        </div>
+
+        <div class="text-center mt-12">@Sneakers</div>
+      </footer>
+    </main>
   </body>
 </html>
