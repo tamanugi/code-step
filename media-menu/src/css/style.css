@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: #121212;
+}
+
+/* flickity button hidden */
+.flickity-button {
+  display: none;
+}
+.flickity-page-dots {
+  display: none;
+}
